@@ -1,4 +1,4 @@
-import {KeyPair, Signature} from './resources/js/stage1.js';
+import {KeyPair, Signature} from './resources/js/stage2.js';
 
 const KEY_SIZE = 1000;
 let keys = new KeyPair(KEY_SIZE); // key size: 1000
