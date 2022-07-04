@@ -128,7 +128,7 @@
   Класс **Transaction** состоит из полей:
    - setOfOperations: коллекция экземпляров *Operation*,
    - index: дополнительная произвольная строка для индивидуальности,
-   - transactionID: хэш из конкатенации коллекции *setOfOperations* в формате JSON и поля *nonce*.
+   - transactionID: хэш из конкатенации коллекции *setOfOperations* в формате JSON и поля *index*.
 
   В классе *Account* добавил метод *createPublishOp*, который возвращает новый экземпляр Operation с заполненными полями.
 
