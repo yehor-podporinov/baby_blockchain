@@ -1,0 +1,107 @@
+body {
+  background: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 667px;
+  margin: 60px auto;
+}
+
+textarea {
+  font-size: 1rem;
+  max-width: 95%;
+  width: 95%;
+  height: 100px;
+  border-radius: 10px;
+  background: #ffffff;
+  resize: none;
+  font-family: inherit;
+  border: 1px solid #ced4da;
+  padding: 6px 12px;
+}
+textarea:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  outline: 0;
+}
+textarea::placeholder {
+  text-align: center;
+  line-height: 90px;
+  font-size: 16pt;
+}
+
+button {
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 80px;
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button:hover {
+  background-color: #157347;
+  border-color: #146c43;
+}
+button:focus {
+    background-color: #157347;
+    border-color: #146c43;
+    box-shadow: 0 0 0 0.25rem rgb(60 153 110 / 50%);
+}
+button:active {
+  background-color: #146c43;
+}
+
+div.text-warning {
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #ffc107;
+}
+
+div.text-info {
+  margin-top: 25px;
+  margin-left: 25px;
+  color: #0dcaf0;
+  padding-right: 50px;
+  line-height: 1.5;
+}
+
+p {
+  width: 85%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .75rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  text-align: center;
+  font-family: inherit;
+}
+.alert-success {
+  border-color: #badbcc;
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+.alert-danger {
+  border-color: #f5c2c7;
+  background-color: #f8d7da;
+  color: #842029;
+}
